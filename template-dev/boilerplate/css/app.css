@@ -1,1 +1,142 @@
 /* Add your CSS here */
+html, body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: Arial, sans-serif;
+
+}
+
+.certificate_container {
+    height: 100%;
+    width: 100%;
+}
+
+.certificate_header {
+    position: relative;
+    height: 500px;
+    object-fit: contain;
+    width: 100%;
+}
+
+
+.certificate_backdrop{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.header_container {
+    margin-top: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-direction: column;
+    z-index: 100;
+    top: 0px;
+}
+
+.first_header, .second_header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    align-items: center;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    margin-bottom: 200px;
+}
+
+.title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+}
+
+.sub_title {
+    font-size: 1.5rem;
+    letter-spacing: 15px;
+}
+
+.presented {
+    font-size: 1.3rem;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.present_box {
+    background-color: white;
+    height: 130px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    font-size: 4.5rem;
+    color: #314F6B;
+    font-weight: 800;
+}
+
+.certificate_content {
+    height: 500px;
+    margin-top: 400px;
+    padding-top: 100px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc_container {
+    margin-top: 150px;
+    width: 750px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.desc_container span {
+    padding-top: 100px;
+    text-align: center;
+    line-height: 40px;
+    color: #314F6B;
+    font-size: 1.5rem;
+}
+
+.credit_container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.date, .acrredify {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.normal_span {
+    color: #314F6B;
+    font-size: 1.4rem;
+}
+
+.divider {
+    background-color:#314F6B;
+    width: 200px;
+    margin: 20px;
+    border-radius: 2px;
+    height: 3px;
+}
+
+.italic {
+    font-style: italic;
+}
